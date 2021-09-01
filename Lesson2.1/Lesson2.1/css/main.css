@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.form-box{
+    width: 400px;
+    height: 350px;
+    background-color: cadetblue;
+    margin: 50px auto;
+}
+.btn{
+    background-color: chocolate;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+
+}
+.sign-up{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border: 1px solid;
+     height: 100px;
+     
+}

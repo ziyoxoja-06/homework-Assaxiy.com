@@ -1,0 +1,179 @@
+/* Asosiy qisim */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+
+}
+::-webkit-scrollbar-track{
+    color: blue;
+}
+/* Qidiruv qismi */
+.starter {
+    display: flex; 
+    padding: 15px;
+}
+.logo {
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+}
+.search {
+    width: 55%;
+    height: 35px;
+    background-color: rgb(83, 159, 247);
+    display: flex;
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.search input {
+    width: 600px;
+    height: 95%;
+    margin-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    border-top: none;
+}
+.search span{
+    color: white;
+    font-size: 20px;
+}
+.search img {
+    height: 20px;
+    margin-top: 7px;
+}
+a {
+    text-decoration: none;
+}
+.option {
+    width: 35%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.img {
+    display: flex;
+    justify-content: space-around;
+}
+.option img{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+.line1 {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+.line1 select{
+    color: grey;
+    border: none;
+}
+.line1 span:hover {
+    color: black;
+}
+.line1 select:hover {
+    color: black;
+}
+/* menu bo'limi */
+.menu {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.menu img {
+    width: 20px;
+    height: 20px;
+}
+.menu span:hover  {
+    color:rgb(83, 159, 247);
+}
+/* Asosiy cantent boshlanishi */
+
+.body1 {
+    width: 100%;
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.514);
+}
+.slice1{
+    width: 50%;
+    height: 400px;
+    background-image: url("611e3d5d48eb5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px;
+    border-radius: 25px;
+    position: relative;
+    
+}
+.slice1 button {
+    position: absolute;
+    top: 270px;
+    left: 155px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(83, 159, 247);
+    background-color: white;
+}
+.slice1 button:hover {
+    background-color: rgb(83, 159, 247);
+    font-size: 17px;
+    color: white;
+}
+.slice2{
+    display: flex;
+}
+.box {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    margin: 25px;
+    border-radius: 20px;
+}
+.box1{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin: 25px;
+    border-top-right-radius: 20px;
+    border-radius: 20px;
+}
+.box img {
+    width: 100px;
+    height: 90px;
+    margin-left: 30px;
+}
+.box1 img {
+    width: 100px;
+    height: 90px;
+    float: right;
+    margin-top: 10px;
+}
+@media only screen and (max-width:600px) {
+    .starter{
+        display: inline-block;
+    }
+    .line1{
+        margin-left: 100px;
+    }
+    .slice2 {
+        display: inline;
+    }
+    .body1{
+        display: inline;
+    }
+}
